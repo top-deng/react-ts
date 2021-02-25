@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2015"
+    ],
+    "outDir": "./dist/",
+    "typeRoots": [
+      "node",
+      "./node_modules/@types/",
+      "./src/@types/"
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "@mock/*": ["mock/*"],
+      "@namespaces/*": ["namespaces/*"],
+      "@package/*": ["package/*"],
+      "@components/*": ["components/*"],
+      "@services/*": ["services/*"],
+      "@plugins/*": ["plugins/*"],
+      "@models/*": ["models/*"],
+      "@store/*": ["store/*"],
+      "@uilts/*": ["uilts/*"],
+      "@assets/*": ["assets/*"],
+      "@routes/*": ["routes/*"],
+      "@entity/*": ["entity/*"],
+      "@view/*": ["view/*"],
+      "@sw/*": ["sw/*"],
+      "@datafactory/*": ["datafactory/*"]
+    },
+  },
+  "compileOnSave": false,
+  "exclude": [
+    "node_modules"
+  ]
+}

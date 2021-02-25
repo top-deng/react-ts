@@ -1,0 +1,13 @@
+###
+@api = http://baidu.com
+@host = {{api}}
+@contentType = application/json
+@token =Bearer QIWDCdDASyqHg4VAz_c5-Q
+
+POST {{host}}/api/user/login
+Content-Type:{{contentType}}
+
+{
+    "username":"yangyh@yoozoo.com",
+    "password":"123456"
+}
